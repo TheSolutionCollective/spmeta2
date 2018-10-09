@@ -189,6 +189,7 @@
     <Compile Include="Impl\Scenarios\FarmSolutionScenariosTest.cs" />
     <Compile Include="Impl\Scenarios\DesignPackageScenariosTest.cs" />
     <Compile Include="Impl\Scenarios\UserScenariosTest.cs" />
+    <Compile Include="Impl\Scenarios\WebApplicationScenariosTests.cs" />
     <Compile Include="Impl\Scenarios\Webparts\ContentByQueryWebPartScenariosTest.cs" />
     <Compile Include="Impl\Scenarios\WorkflowAssociationScenariosTest.cs" />
     <Compile Include="Impl\Scenarios\MetadataNavigationSettingsScenarios.cs" />
@@ -208,7 +209,6 @@
     <Compile Include="Impl\Scenarios\EventReceiverScenariosTest.cs" />
     <Compile Include="Impl\Scenarios\Fields\ChoiceFieldScenariousTest.cs" />
     <Compile Include="Impl\Scenarios\Fields\LookupFieldScenariousTest.cs" />
-    <Compile Include="Impl\Scenarios\JobScenariousTest.cs" />
     <Compile Include="Impl\Scenarios\AuditSettingsScenariousTest.cs" />
     <Compile Include="Impl\Scenarios\ListItemValueScenariousTest.cs" />
     <Compile Include="Impl\Scenarios\MasterPageSettingsDefinitionScenariosTest.cs" />
@@ -283,6 +283,7 @@
     <Compile Include="Services\ExpectUpdateServices\ExpectUpdateAsEmailAddressService.cs" />
     <Compile Include="Services\ExpectUpdateServices\ExpectUpdateAsNumberFieldDisplayFormatService.cs" />
     <Compile Include="Services\ExpectUpdateServices\ExpectUpdatAsDisplayFormatService.cs" />
+    <Compile Include="Services\ExpectUpdateServices\ExpectUpdateAsTestSecurityGroup.cs" />
     <Compile Include="Services\ExpectUpdateServices\ExpectUpdateDeveloperDashboardSettingsService.cs" />
     <Compile Include="Services\ExpectUpdateServices\ExpectUpdateAsToolbarTypeService.cs" />
     <Compile Include="Services\ExpectUpdateServices\ExpectUpdateAsChoiceFieldEditFormatService.cs" />
@@ -623,6 +624,11 @@
   </Choose>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_StartDate="2000/1/1" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -174,7 +174,7 @@ namespace SPMeta2.Definitions
         [DataMember]
         [ExpectNullable]
         [ExpectValidation]
-       // [ExpectUpdateAsEmailAddress]
+        // [ExpectUpdateAsEmailAddress]
         public string RequestAccessEmail { get; set; }
 
         [DataMember]
@@ -182,20 +182,47 @@ namespace SPMeta2.Definitions
         [ExpectValidation]
         public bool? MembersCanShare { get; set; }
 
+        /// <summary>
+        /// Name of the security group to be set as AssociatedMemberGroup, group must exist 
+        /// </summary>
+        [DataMember]
+        [ExpectValidation]
+        [IdentityKey]
+        [ExpectUpdateAsTestSecurityGroup]
+        public string AssociatedMemberGroupName { get; set; }
+
+        /// <summary>
+        /// Name of the security group to be set as AssociatedOwnerGroup, group must exist 
+        /// </summary>
+        [DataMember]
+        [ExpectValidation]
+        [IdentityKey]
+        [ExpectUpdateAsTestSecurityGroup]
+        public string AssociatedOwnerGroupName { get; set; }
+
+        /// <summary>
+        /// Name of the security group to be set as AssociatedOwnerGroup, group must exist 
+        /// </summary>
+        [DataMember]
+        [ExpectValidation]
+        [IdentityKey]
+        [ExpectUpdateAsTestSecurityGroup]
+        public string AssociatedVisitorGroupName { get; set; }
+
         #endregion
 
         #region methods
 
         public override string ToString()
         {
-            return new ToStringResult<WebDefinition>(this)
-                          .AddPropertyValue(p => p.Title)
-                          .AddPropertyValue(p => p.Description)
-                          .AddPropertyValue(p => p.LCID)
-                          .AddPropertyValue(p => p.UseUniquePermission)
-                          .AddPropertyValue(p => p.Url)
-                          .AddPropertyValue(p => p.WebTemplate)
-                          .AddPropertyValue(p => p.CustomWebTemplate)
+            return new ToStringResultRaw()
+                          .AddRawPropertyValue("Title", Title)
+                          .AddRawPropertyValue("Description", Description)
+                          .AddRawPropertyValue("LCID", LCID)
+                          .AddRawPropertyValue("UseUniquePermission", UseUniquePermission)
+                          .AddRawPropertyValue("Url", Url)
+                          .AddRawPropertyValue("WebTemplate", WebTemplate)
+                          .AddRawPropertyValue("CustomWebTemplate", CustomWebTemplate)
 
                           .ToString();
         }

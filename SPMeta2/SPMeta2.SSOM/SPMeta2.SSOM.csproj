@@ -200,6 +200,7 @@
     <Compile Include="Extensions\SPViewCollectionExtensions.cs" />
     <Compile Include="Extensions\WebPartExtensions.cs" />
     <Compile Include="ModelHandlers\AnonymousAccessSettingsModelHandler.cs" />
+    <Compile Include="ModelHandlers\AssociatedGroupsModelHandler.cs" />
     <Compile Include="ModelHandlers\SuiteBarModelHandler.cs" />
     <Compile Include="ModelHandlers\OfficialFileHostModelHandler.cs" />
     <Compile Include="ModelHandlers\AuditSettingsModelHandler.cs" />
@@ -389,6 +390,11 @@
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_StartDate="2000/1/1" />
+    </VisualStudio>
+  </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -36,7 +36,7 @@ $g_buildBaseline = @{
             ExpectedDependencies = @(
                 @{
                     Id = "Microsoft.SharePointOnline.CSOM";
-                    Version = "16.1.5715.1200"
+                    Version = "16.1.8119.1200"
                 }
             )
         },
@@ -46,7 +46,7 @@ $g_buildBaseline = @{
             ExpectedDependencies = @(
                 @{
                     Id = "Microsoft.SharePointOnline.CSOM";
-                    Version = "16.1.5715.1200"
+                    Version = "16.1.8119.1200"
                 }
             )
         }

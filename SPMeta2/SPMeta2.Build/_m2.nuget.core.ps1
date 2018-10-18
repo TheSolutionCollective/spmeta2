@@ -566,7 +566,7 @@ function CreateSPMeta2CSOMFoundationPackage($version, $spRuntime) {
 
 		$o365CSOMPackage = GetDependencyPrototype
 		$o365CSOMPackage.Id = "Microsoft.SharePointOnline.CSOM"
-		$o365CSOMPackage.Version = "16.1.5715.1200"
+		$o365CSOMPackage.Version = "16.1.8119.1200"
 
 		$package.Dependencies += $o365CSOMPackage
 	} else {
@@ -648,7 +648,7 @@ function CreateSPMeta2CSOMStandardPackage($version, $spRuntime) {
 
 		$o365CSOMPackage = GetDependencyPrototype
 		$o365CSOMPackage.Id = "Microsoft.SharePointOnline.CSOM"
-		$o365CSOMPackage.Version = "16.1.5715.1200"
+		$o365CSOMPackage.Version = "16.1.8119.1200"
 
 		$package.Dependencies += $o365CSOMPackage
 	} else {

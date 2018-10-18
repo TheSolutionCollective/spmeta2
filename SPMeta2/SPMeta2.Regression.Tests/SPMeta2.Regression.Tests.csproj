@@ -395,63 +395,63 @@
       <Link>_Dependencies\spmeta2-csom-2013\SPMeta2.CSOM.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.Office.Client.Policy.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.Office.Client.Policy.dll">
       <Link>_Dependencies\csom-v365\Microsoft.Office.Client.Policy.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.Office.Client.TranslationServices.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.Office.Client.TranslationServices.dll">
       <Link>_Dependencies\csom-v365\Microsoft.Office.Client.TranslationServices.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.Office.SharePoint.Tools.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.Office.SharePoint.Tools.dll">
       <Link>_Dependencies\csom-v365\Microsoft.Office.SharePoint.Tools.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.Online.SharePoint.Client.Tenant.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.Online.SharePoint.Client.Tenant.dll">
       <Link>_Dependencies\csom-v365\Microsoft.Online.SharePoint.Client.Tenant.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.ProjectServer.Client.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.ProjectServer.Client.dll">
       <Link>_Dependencies\csom-v365\Microsoft.ProjectServer.Client.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.DocumentManagement.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.DocumentManagement.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.DocumentManagement.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.Publishing.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.Publishing.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.Publishing.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.Runtime.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.Runtime.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.Runtime.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.Runtime.Windows.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.Runtime.Windows.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.Runtime.Windows.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.Search.Applications.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.Search.Applications.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.Search.Applications.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.Search.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.Search.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.Search.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.Taxonomy.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.Taxonomy.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.Taxonomy.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.UserProfiles.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.UserProfiles.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.UserProfiles.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.5715.1200\NET45\Microsoft.SharePoint.Client.WorkflowServices.dll">
+    <Content Include="..\SPMeta2.Dependencies\SharePoint\O365 - 16.1.8119.1200\NET45\Microsoft.SharePoint.Client.WorkflowServices.dll">
       <Link>_Dependencies\csom-v365\Microsoft.SharePoint.Client.WorkflowServices.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -271,8 +271,8 @@ function CreateNugetSpec($package, $targetFolder) {
 	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}id").Value = $packageName;	 
 	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}version").Value = $version;	 
 	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}title").Value = $packageName;	 
-	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}authors").Value = "SubPoint Solutions";	 
-	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}owners").Value = "SubPoint Solutions";	 
+	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}authors").Value = "TheSoCo - SubPoint Solutions";	 
+	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}owners").Value = "TheSoCo - SubPoint Solutions";	 
 	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}tags").Value = $package.Tags;	 
 	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}summary").Value = $package.Summary;	 
 	$metadata.Element("{http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd}description").Value = $package.Description;	 

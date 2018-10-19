@@ -37,7 +37,7 @@ $g_useDayVersion = $false
 $g_is13 = $false
 
 # M2 NuGet package version, release noted URL and target solution directory
-$g_hardcoreVersionBase = "1.2.105";
+$g_hardcoreVersionBase = "1.2.999";
 $g_hardcoreVersion = "$g_hardcoreVersionBase-beta1";
 
 $g_releaseNotes = "https://github.com/SubPointSolutions/spmeta2/releases/tag/$g_hardcoreVersion";

@@ -238,7 +238,8 @@ namespace SPMeta2.CSOM.ModelHandlers
                 MapListViewProperties(list, currentView, listViewModel);
             }
 
-            ProcessLocalization(currentView, listViewModel);
+            //todo - CSOM ListView does not contain TitleResource property
+            //ProcessLocalization(currentView, listViewModel);
 
             InvokeOnModelEvent(this, new ModelEventArgs
             {
